@@ -6,10 +6,7 @@ body
     font-family: 'Lato', sans-serif;
     
 }
-/* html
-{
-    height: 100%;
-} */
+
 #content
 {
     text-align: center;
@@ -60,9 +57,9 @@ nav li a:hover{
   }
 
   /*for the bottom of the page  */
-.container-boxes{
+.container{
     margin: 0 auto;
-    padding-top: 20%;
+    padding-top: 15%;
     display:flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -100,11 +97,11 @@ nav li a:hover{
   .text h3{
     text-transform: uppercase;
     letter-spacing: 4px;
-    margin-bottom: 0;
+ 
+    margin: auto;
   }
   
   .text p{
-    margin-top: 1rem;
     line-height: 1.5rem;
     text-align: left;
   }
